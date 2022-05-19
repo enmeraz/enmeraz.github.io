@@ -20,7 +20,7 @@ It will then show the mystery word completed. If the player doesn't want to play
 ### website: 
 https://enmeraz.github.io/enmeraz-hangman/
 ### github repository: 
-https://github.com/enmeraz/enmeraz-hangman
+https://github.com/enmeraz/enmeraz.github.io
 
 ***
 ## How to build and run
