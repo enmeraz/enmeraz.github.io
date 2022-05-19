@@ -1,0 +1,75 @@
+.Hangman {
+    width: 500px;
+    color: black;
+    text-align: center;
+    zoom: 1.3;
+}
+
+.Hangman img {
+    border: 10px solid white;
+    height: 200px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+        0 0 40px rgba(0, 0, 0, 0.06) inset;
+        background-color: white;
+}
+
+.Hangman h2 {
+    font-size: 1.20rem;
+    font-weight: 400;
+}
+
+.Hangman-word {
+    letter-spacing: 1em;
+    margin: 0.4em -1em 0.2em 0;
+    font-size: 1.5rem;
+    color: rgb(56, 123, 2);
+    font-weight: bolder;
+}
+
+/* winning message */
+.Hangman-buttons {
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    margin-top: 0;
+    font-size: 1.75;
+    font-weight: bold;
+    color: red;
+}
+
+.Hangman button{
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 30px;
+    margin: 5px 2px 2px 2px;
+    letter-spacing: 1px;
+    outline: none;
+    background: rgb(5, 154, 204);
+    color: yellow;
+    border-radius: 5px;
+}
+
+.Hangman button:hover {
+    background-color: rgb(90, 90, 255);
+}
+
+.Hangman button:disabled{
+    background: grey;
+    color: white;
+    box-shadow: 0 4px darkgray;
+}
+
+#reset{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: orange;
+    border-radius: 3px;
+    border-color: darkorange;
+}
+
+#reset:hover{
+    background: darkorange;
+}
