@@ -26,3 +26,5 @@ https://github.com/enmeraz/enmeraz.github.io
 ## How to build and run
 ### To run:
 npm start or visit website
+
+### NOTE ~~ this repository is recently made due to technical difficulies old one is still active but this one is best for presentation/performance
